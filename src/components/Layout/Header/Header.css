@@ -1,13 +1,82 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 00px;
+  background-color: #f6f6f6;
+}
 .header {
   width: 100vw;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
   background-image: url('/public/assets/images/reflections.png');
   background-blend-mode: multiply;
-  filter: blur(3px);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(52, 52, 52);
   color: white;
+}
+.row {
+  display: grid;
+  grid-template-rows: auto;
+  /* justify-content: center;
+  justify-self: center; */
+}
+.col {
+  display: grid;
+  grid-template-columns: right;
+  /* justify-content: center;
+  justify-self: center; */
+}
+
+.tagline1 {
+  font-family: 'lato', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+  color: #bbb;
+  padding-left: 15rem;
+
+  /* text-align: left; */
+  padding-top: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.tagline2 {
+  padding-top: 100px;
+  padding-left: 15rem;
+  font-family: 'lato', sans-serif;
+  font-size: 7em;
+  letter-spacing: 7px;
+  line-height: 0.95em;
+  font-weight: 100;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px black;
+}
+.tagline3 {
+  padding-top: 10px;
+  font-family: 'lato', sans-serif;
+  font-size: 7em;
+  letter-spacing: 7px;
+  line-height: 0.95em;
+  font-weight: 100;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  padding-left: 15rem;
+}
+
+@media (max-width: 768px) {
+  .tagline1 {
+    font-size: 1.2em;
+    padding-left: 10rem;
+  }
+
+  .tagline2,
+  .tagline3 {
+    font-size: 2.8em;
+    padding-left: 10rem;
+  }
 }
