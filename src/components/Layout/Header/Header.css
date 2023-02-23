@@ -1,0 +1,13 @@
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/public/assets/images/reflections.png');
+  background-blend-mode: multiply;
+  filter: blur(3px);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(52, 52, 52);
+  color: white;
+}
