@@ -44,7 +44,7 @@ export default function Footer() {
         </li>
       </ul>
       <div className="text-center copyright">
-        <p>© 2023 Hana Jones Acciaioli. All rights reserved </p>
+        <p>© 2023 Hana Jones Acciaioli </p>
       </div>
     </footer>
   );
