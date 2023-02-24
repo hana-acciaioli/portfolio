@@ -11,7 +11,8 @@ body {
   --color3: rgb(127, 83, 75);
   --color4: rgb(140, 112, 95);
   --color5: rgb(315, 13, 12);
-  --color6: rgb(227, 202, 187);
+  --colorSlate: rgb(77, 76, 91);
+  --colorCream: rgb(255, 255, 255);
   background-color: var();
   color: var();
   cursor: default;

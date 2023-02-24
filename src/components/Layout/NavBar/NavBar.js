@@ -21,8 +21,8 @@ export default function NavBar() {
               </span>
             </button>
             <div className="collapse navbar-collapse" id="navbar-collapse-1">
-              <a className="navbar-brand animated flip" href="home">
-                Back to top
+              <a className="navbar-brand animated flip" href="">
+                Take me home
               </a>
               <ul className="nav navbar-nav navbar-right">
                 <li>
@@ -31,8 +31,8 @@ export default function NavBar() {
                   </Link>
                 </li>
                 <li>
-                  <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={500}>
-                    Portfolio
+                  <Link activeClass="active" to="work" spy={true} smooth={true} duration={500}>
+                    Work
                   </Link>
                 </li>
                 <li>
