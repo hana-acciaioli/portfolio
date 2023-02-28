@@ -8,9 +8,9 @@
   display: flex;
   flex-direction: column;
 }
-.sr-only {
+/* .sr-only {
   display: none;
-}
+} */
 
 .navbar-fixed-top {
   top: 0;

@@ -1,16 +1,16 @@
 import React from 'react';
-import './Work.css';
+import './Resume.css';
 
-export default function Work() {
+export default function Resume() {
   return (
-    <div className="section container-fluid" id="work">
+    <div className="section container-fluid" id="resume">
       <div className="row section-banner">
         <div className="col-md-offset-3 col-md-6 text-center">
           <div className="center-row">
             <div>
-              <span className="line work"></span>
-              <span className="section-title work">my work</span>
-              <span className="line work"></span>
+              <span className="line Resume"></span>
+              <span className="section-title Resume">resume</span>
+              <span className="line Resume"></span>
             </div>
           </div>
         </div>
@@ -18,10 +18,7 @@ export default function Work() {
       <div className="row max">
         <div className="col-sm-offset-2 col-sm-8 text-center">
           <div className="desc">
-            <p>
-              Check out what I&apos;ve been working on! Details are on the back of the cards with
-              links to the live sites.
-            </p>
+            <p></p>
           </div>
         </div>
       </div>

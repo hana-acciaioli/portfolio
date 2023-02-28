@@ -1,11 +1,11 @@
-#contact {
+#resume {
   background-color: var(--colorCream);
   height: 100%;
   padding-top: 100px;
   padding-bottom: 200px;
   width: 100vw;
 }
-.line.contact {
+.line.resume {
   background-color: rgba(0, 0, 0, 0.54);
 }
 .line {
@@ -17,7 +17,7 @@
   background-color: #999;
 }
 
-.section-title.contact {
+.section-title.resume {
   color: rgba(0, 0, 0, 0.54);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
 }

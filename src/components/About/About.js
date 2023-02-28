@@ -27,7 +27,6 @@ export default function About() {
               I&apos;m a Full-Stack Developer with an eye for design, UX and UI development and a
               strong desire to learn and create. I also have an appreciation for the data side of
               life and take great pride in clean code and thorough testing.
-              <br />
             </p>
           </div>
         </div>
@@ -37,9 +36,10 @@ export default function About() {
               <GiMountainRoad />
             </div>
             <p>
-              I believe in life long learning and I&apos;m constantly exploring new ideas and
-              technologies. My journey into tech began when I worked as a systems administrator for
-              a ground-breaking circular textile company. Since then, I have immersed myself in the
+              {/* I believe in life long learning and I&apos;m constantly exploring new ideas and
+              technologies. */}
+              My journey into tech began when I worked as a systems administrator for a
+              ground-breaking circular textile company. Since then, I have immersed myself in the
               tech world, learning and working with a variety of modern web development tools.
             </p>
           </div>
